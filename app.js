@@ -8,6 +8,9 @@ app.get('/', (req, res) => {
 app.get('/dashboard', (req, res) => {
   res.send('Hello dashboard!');
 });
+app.get('/contact', (req, res) => {
+  res.send('Hello dashboard!');
+});
 
 const port = process.env.PORT || 3000;
 app.listen(port, () => {
